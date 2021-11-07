@@ -1,4 +1,4 @@
-# rickandmorty
+# Rick And Morty Vue.js and Tailwind.css App
 
 ## Project setup
 ```
