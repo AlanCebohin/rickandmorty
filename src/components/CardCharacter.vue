@@ -27,7 +27,7 @@
             character.status == 'Alive'
               ? 'alive px-2 animate-pulse bg-raygun mr-2 rounded-full'
               : character.status == 'Dead'
-              ? 'dead px-2 animate-pulse bg-red-400 mr-2 rounded-full'
+              ? 'dead px-2 animate-pulse bg-red-500 mr-2 rounded-full'
               : 'default px-2 animate-pulse bg-white mr-2 rounded-full'
           "
         ></span>
