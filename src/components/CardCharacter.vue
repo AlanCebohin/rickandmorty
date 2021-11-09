@@ -16,8 +16,8 @@
       cursor-pointer
     "
   >
-    <img :src="character.image" :alt="character.name" />
-    <div class="character__item p-2">
+    <img class="mx-auto" :src="character.image" :alt="character.name" />
+    <div class="character__item p-2 w-72">
       <h3 class="text-2xl text-white hover:text-yellow-500 font-semibold">
         {{ character.name }}
       </h3>
@@ -35,11 +35,13 @@
           >{{ character.status }} - {{ character.species }}</span
         >
       </div>
-      <div class="origin text-white font-light">
+      <div class="origin text-white text-sm font-light">
         <span>{{ character.origin.name }}</span>
       </div>
-      <div class="location text-white font-light">
-        {{ character.location.name }}
+      <div class="location text-white text-sm font-light">
+        <span>
+          {{ character.location.name }}
+        </span>
       </div>
     </div>
   </div>
